@@ -3,11 +3,17 @@
 one:
   title: MyString1
   description: MyText
-  image_url:  ruby.jpg
+  image_url: ruby.jpg
   price: 9.99
 
 two:
   title: MyString2
   description: MyText
-  image_url:  ruby.jpg
+  image_url: ruby.jpg
   price: 9.99
+
+  three:
+    title: MyString3
+    description: MyText
+    image_url: ruby.jpg
+    price: 9.99
