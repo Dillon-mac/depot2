@@ -26,7 +26,7 @@
           <li><a href="/time&date">19:00 1/11/20</a></li>
           <% if @cart %>
             <div id="cart" class="carts">
-              <%= render @cart %>
+              <%= render_if @cart && @cart.line_items.any?, @cart %>
             </div>
           <% end %>
         </ul>
