@@ -24,6 +24,11 @@
           <li><a href="/news">News</a></li>
           <li><a href="/contact">Contact</a></li>
           <li><a href="/time&date">19:00 1/11/20</a></li>
+          <% if @cart %>
+            <div id="cart" class="carts">
+              <%= render @cart %>
+            </div>
+          <% end %>
         </ul>
       </nav>
   <%= image_tag 'logo.png', alt: 'The Pragmatic Bookshelf' %>
